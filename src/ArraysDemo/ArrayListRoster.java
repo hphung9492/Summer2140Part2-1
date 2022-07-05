@@ -20,16 +20,5 @@ public class ArrayListRoster {
 
         System.out.println(roster);
 
-        for(String nm: name)
-        {
-            if(roster.length() > prefixLength)
-            {   roster.append(", "); }
-            roster.append(nm);
-        }
-        System.out.println(roster);
-        System.out.println('\n');
-
-
-
     }
 }
