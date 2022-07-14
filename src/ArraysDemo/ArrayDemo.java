@@ -7,10 +7,14 @@ public class ArrayDemo extends Object {
         int[] numbers = new int[]{1,2,3,4};
        // numbers = new int[] {1,2,3,4};
 
+        numbers[1] = 10;
+
         for(int i = 0; i < numbers.length; i++)
         {
             System.out.print(numbers[i] + " ");
         }
+        System.out.println();
+        System.out.println(numbers);
         System.out.println();
         System.out.println(Arrays.toString(numbers));
         System.out.println(numbers);

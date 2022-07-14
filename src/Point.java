@@ -7,6 +7,7 @@ public class Point {
     //constructor  - no argument constructor
     public Point()
     {
+        this(1,2);
     }
 
     public Point(int x, int y)

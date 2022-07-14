@@ -1,6 +1,7 @@
 package DistinctValueP;
 
 public class DistinctValue {
+
     public static void main(String[] args) {
         DistinctValue dv = new DistinctValue();
         int[] arr = {23,45,67,89,10,10,10,10,45,67};
